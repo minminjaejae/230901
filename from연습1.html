@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>form연습1</title>
+</head>
+<body>
+    <h1>form 연습 1</h1>
+    <section>
+        <fieldset>
+        <legend>상세정보:</legend>
+        <p>이름: <input type="name" name="yourName"></p>
+        <p>이메일: <input type="email" email="yourEmail"></p>
+    </fieldset>
+    </section>
+    
+
+    <section>
+        <fieldset>
+            <legend>리뷰:</legend>
+            <h3>사이트를 알게 된 경위는?</h3>
+            <select name="name" id="menu">
+            <option value="">직접검색</option>
+            <option value="">sns</option>
+            <option value="">광고</option>
+            <option value="">지인소개</option>
+            </select>
+            <hr>
+
+            <section>
+                <h3>다시 방문 하시겠습니까?</h3>
+                <input type="radio" name="choice" value="네"checked>네
+                <input type="radio" name="choice" value="아니오">아니오
+                <input type="radio" name="choice" value="모름">모름
+            </section>
+            <hr>
+
+            <section>
+                <h3>의견:</h3>
+                <textarea name="textBox" id="textBox" cols="30" rows="4">여러 줄의 텍스트 박스</textarea>
+            </section>
+            <hr>
+
+
+            <section>
+                <input type="checkbox" checked><strong>이메일 업데이트에 가입</strong>
+            </section>
+            <hr>
+
+            <section>
+                <button type="submit">파일전송</button>
+                <button type="submit">전송취소</button>
+            </section>
+        </fieldset>
+    </section>
+    
+</body>
+</html>
